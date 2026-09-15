@@ -1,0 +1,33 @@
+{
+  "schema_version": "2.0",
+  "synthetic": true,
+  "source": {
+    "software": "synthetic-demo",
+    "version": "1",
+    "path": "synthetic://demo-no-real-model",
+    "units": "m",
+    "unit_scale_to_m": 1,
+    "native_units": "m"
+  },
+  "objects": [{
+    "id": "demo:balcao-1",
+    "name": "Balcão de demonstração sintética",
+    "kind": "mesh",
+    "parent_id": null,
+    "definition_id": null,
+    "layer": "Mobiliário",
+    "visible": true,
+    "world_bounds_m": {"min": [0, 0, 0], "max": [1.2, 0.6, 1.0]},
+    "materials": [],
+    "properties": {"note": "Objeto fictício usado somente para testar o fluxo sem aplicativos 3D."}
+  }],
+  "views": [],
+  "materials": [],
+  "warnings": ["DEMONSTRAÇÃO SINTÉTICA. Nenhum arquivo de projeto foi lido."],
+  "extraction": {
+    "status": "partial",
+    "object_count": 1,
+    "capabilities": ["objects", "hierarchy", "world_bounds_m", "units"],
+    "limitations": ["Dados sintéticos; vistas técnicas e validação nativa ausentes."]
+  }
+}

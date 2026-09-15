@@ -1,0 +1,5 @@
+interface:
+  display_name: "Memorial Modelo 3D"
+  short_description: "Memoriais técnicos com SketchUp, Rhino e 3ds Max."
+  default_prompt: "Use $memorial-modelo-3d para analisar este modelo e preparar o memorial técnico dos itens solicitados."
+
